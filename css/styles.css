@@ -21,7 +21,71 @@ svg {
 	border: solid 1px #38444d;
 }
 
+#circles {
+	fill: #38444d;
+	stroke: #38444d;
+}
+
+path {
+	fill: none;
+	stroke: #38444d;
+	stroke-width: 2;
+}
+
+circle {
+	fill: #b2becd;
+	stroke: #b2becd;
+}
+
+line {
+	fill: #15202b;
+	stroke: #38444d;
+}
+
+text {
+	fill: #fff;
+	dominant-baseline: middle;
+	text-anchor: middle;
+}
+
+rect {
+	fill: #15202b;
+	stroke: #38444d;
+	width: 80px;
+	height: 40px;
+	stroke-width: 2;
+}
+
+rect:hover {
+	cursor: pointer;
+	stroke: #366080;
+}
+
+#details {
+	position: absolute;
+	left: 0;
+	top: 120px;
+	width: 120px;
+	height: 40px;
+	background-color: #b2becd;
+	color: #15202b;
+	visibility: hidden;
+	border-radius: 5px;
+	text-align: center;
+	padding: 10px;
+	font-size: 18px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.name {
+	font-size: 18px;
+}
+
 .container {
+	max-width: 1024px;
+	margin: auto;
 	display: flex;
 	justify-content: center;
 	align-items: center;
